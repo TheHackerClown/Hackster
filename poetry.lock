@@ -42,6 +42,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "urcalc"
+version = "0.2.0"
+description = "Simple calculator in terminal using Urwid"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "youtube-dl"
 version = "2021.6.6"
 description = "YouTube video downloader"
@@ -52,7 +60,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "1b342d4d23bdc95a8416221a840a61f013f92005eaeb7be97fc7ffaa80dd67a6"
+content-hash = "158c61b63cb6e5cb3f9848f73339f39b135ce89cdeda5c5175af872c26e0be46"
 
 [metadata.files]
 numpy = [
@@ -118,6 +126,11 @@ pyglet = [
 speedtest-cli = [
     {file = "speedtest-cli-2.1.3.tar.gz", hash = "sha256:5e2773233cedb5fa3d8120eb7f97bcc4974b5221b254d33ff16e2f1d413d90f0"},
     {file = "speedtest_cli-2.1.3-py2.py3-none-any.whl", hash = "sha256:75ff32c91af9ac1ce2b905476d6e92bd9eb2c0783f9e7d1939d74605c7d0b9ea"},
+]
+urcalc = [
+    {file = "urcalc-0.2.0-py33-none-any.whl", hash = "sha256:afefa3e61cec7339366e16b880d74cd968f9d04c43f412ef16b7204be8f75f95"},
+    {file = "urcalc-0.2.0.tar.gz", hash = "sha256:00af5f80325dd9fdad6bad49f18ff6abfdd562935f68117aaf06ab91441f5ecc"},
+    {file = "urcalc-0.2.0.zip", hash = "sha256:baca92cab94ceafc459180428c47af9d2199a2f7b71d55aed2c85143b1269dc9"},
 ]
 youtube-dl = [
     {file = "youtube_dl-2021.6.6-py2.py3-none-any.whl", hash = "sha256:263e04d53fb8ba3dfbd246ad09b7d388e896c132a20cc770c26ee7684de050ac"},
