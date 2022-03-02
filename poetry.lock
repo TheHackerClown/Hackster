@@ -18,6 +18,14 @@ python-versions = ">=3.6"
 numpy = ">=1.13.3"
 
 [[package]]
+name = "pyfiglet"
+version = "0.8.post1"
+description = "Pure-python FIGlet implementation"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyglet"
 version = "1.5.18"
 description = "Cross-platform windowing and multimedia library"
@@ -44,7 +52,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c74cd510825d7743c5cf217ed6c441c5ffc7e14ae2c58bdb5c3d87a6f77d9ab1"
+content-hash = "1b342d4d23bdc95a8416221a840a61f013f92005eaeb7be97fc7ffaa80dd67a6"
 
 [metadata.files]
 numpy = [
@@ -98,6 +106,10 @@ opencv-python = [
     {file = "opencv_python-4.5.2.54-cp39-cp39-manylinux2014_x86_64.whl", hash = "sha256:8cf81f53ac5ad900ca443a8252c4e0bc1256f1c2cb2d8459df2ba1ac014dfa36"},
     {file = "opencv_python-4.5.2.54-cp39-cp39-win32.whl", hash = "sha256:a8020cc6145c6934192189058743a55189750df6dff894396edb8b35a380cc48"},
     {file = "opencv_python-4.5.2.54-cp39-cp39-win_amd64.whl", hash = "sha256:0a3aef70b7c53bbd22ade86a4318b8a2ad98d3c3ed3d0c315f18bf1a2d868709"},
+]
+pyfiglet = [
+    {file = "pyfiglet-0.8.post1-py2.py3-none-any.whl", hash = "sha256:d555bcea17fbeaf70eaefa48bb119352487e629c9b56f30f383e2c62dd67a01c"},
+    {file = "pyfiglet-0.8.post1.tar.gz", hash = "sha256:c6c2321755d09267b438ec7b936825a4910fec696292139e664ca8670e103639"},
 ]
 pyglet = [
     {file = "pyglet-1.5.18-py3-none-any.whl", hash = "sha256:543d60ed190b72c22f5ed9becd01fc4ff1b1b10cd4545349105434bbcd4fede6"},
