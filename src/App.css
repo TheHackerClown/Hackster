@@ -1,0 +1,14 @@
+.term-input {
+    width: 86dvw;
+    height: 3dvh;
+    color: white;
+    background-color: black;
+    
+    outline: none;
+    border: none;
+    font-size: large;
+}
+
+.hidden {
+    display: none;
+}
