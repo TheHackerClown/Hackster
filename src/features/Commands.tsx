@@ -40,7 +40,7 @@ export class WhoAmI {
     }
     
     run(tokens: string[]) {
-        if (tokens.length > 2) {
+        if (tokens.length > 1) {
             return "options were not needed\nyou are a Loser.";
         }
         return "you are a CTF Player";
